@@ -1,0 +1,68 @@
+body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .container {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(90deg, #a0a0d3, #b81055);
+    }
+
+    .app-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: #f0f2f0;
+    }
+
+    .headings-container {
+      padding: 0 1rem;
+    }
+
+    .interaction-container {
+      display: flex;
+      align-items: normal;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    .text-control {
+      padding: 0.5rem;
+      margin: 2rem 0;
+      background-color: #e4e7e9e8;
+      color: #780d0d;
+      border: 1px solid #1c0101;
+      border-radius: 10px;
+    }
+
+    .text-control:focus-visible {
+      outline: none;
+    }
+
+    .error-para {
+      color: rgb(63, 3, 3);
+    }
+
+    .btn {
+      padding: 0.8rem;
+      background-image: linear-gradient(90deg, #952ae1, #c42222);
+      border: 1px solid transparent;
+      border-radius: 10px;
+      color: #ddd5d5;
+      cursor: pointer;
+      transition: all 0.25s;
+    }
+
+    .btn:hover {
+      padding: 1rem;
+    }
